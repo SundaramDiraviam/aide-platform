@@ -1,0 +1,9 @@
+project            = "aide"
+environment        = "dev"
+aws_region         = "us-east-1"
+cluster_name       = "aide-eks"
+vpc_cidr           = "10.0.0.0/16"
+kubernetes_version = "1.31"
+node_instance_type = "t3.medium"
+node_min_size      = 2
+node_max_size      = 4
